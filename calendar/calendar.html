@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>짱구 달력</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calendar.css">
+    <script src="calendar1.js"></script>
+</head>
+
+<body>
+    <div class="btn">
+        <button class="btnL" onclick="prev(); image(nMonth.getMonth());" style="cursor:pointer;"><img src="좌측M.png"
+                width="20px" height="20px"></button>
+        <button class="btnR" onClick="next(); image(nMonth.getMonth());" style="cursor:pointer;"><img src="우측M.png"
+                width="20px" height="20px"></button>
+    </div>
+    <div class="cal">
+        <span id="calYear"></span>
+        <div id="year">
+            <img id="img" src="" width="500px" height="200px">
+            <span id="calMonth"></span>
+        </div>
+        <table class="Calendar" ; style="cursor:pointer;">
+            <div class="Bimg"><img src="date.png" alt="img"></div>
+            <thead>
+                <tr id="week">
+                    <td>S</td>
+                    <td>M</td>
+                    <td>T</td>
+                    <td>W</td>
+                    <td>T</td>
+                    <td>F</td>
+                    <td>S</td>
+                </tr>
+            </thead>
+            <tbody>
+                <img>
+            </tbody>
+        </table>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+body {
+    font-family: 'Rampart One', cursive;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10em;
+    position: relative;
+    
+}
+body .cal #calYear {
+    position: absolute;
+    left: 222px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Secular One', sans-serif;
+    text-shadow: 2px 2px 4px white
+}
+.Calendar thead #week {
+    font-family: 'Secular One', sans-serif;
+}
+.btn {
+    position: relative;
+    width: 496px;
+}
+.btnL, .btnR {
+    border: none;
+    background-color: white;
+}
+.btn .btnR {
+    float: right;
+}
+.cal {
+    position: relative;
+    box-shadow: 15px 0px 10px -7px rgba(0, 0, 0, 0.2);
+    /* border: 2px solid blue; */
+}
+.cal #year {
+    display: block;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+.cal #year #calMonth {
+    position: absolute;
+    margin-left: 83px;
+    width: 80px;
+    bottom: 40px;
+    font-size: 80px;
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    text-shadow: 4px 4px 0px black;
+}
+
+.cal .Calendar {
+    text-align: center;
+    display: block;
+    top: 200px;
+    position: absolute;
+    box-shadow: 15px 16px 10px -7px rgba(0, 0, 0, 0.2);
+}
+.Bimg{
+    position: absolute;
+    top: 280px;
+    left: 85px;
+    opacity: 0.2;
+}
+.SUN {
+    color: red;
+}
+.SAT {
+    color: blue;
+}
+td:hover:not(#week td){
+    font-size: 31px;
+    padding: 0;
+}
+td{
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+}
