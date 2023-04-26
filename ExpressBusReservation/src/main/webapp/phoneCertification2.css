@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body{
+	padding: 0;
+	margin: 0;
+	height: 1000px;
+}
+header{
+	position: absolute;
+	width: 85%;
+	height: 24vh;
+	padding-left: 15%;
+	overflow: hidden;
+	background-color: #8A6AA3;
+}
+header #headerBox{
+	top: 0;
+	z-index: 5;
+	width: 85%;
+	height:100%;
+	padding-left: 15%;
+	background-image: url("images/headerImg.png");
+	opacity: 0.5;
+}
+section{
+	position: absolute;
+	top: 25%;
+	width: 67%;
+	left: 25%;
+}
+section #titleText{
+	font-size: 24px;
+	text-align: center;
+}
+.inputBox{
+	border: 1px solid #e6e6e6;
+	width: 100%;
+	height: 20vh;
+}
+.inputBox #box{
+	width: 60%;
+	height: 50%;
+	margin-left: 20%;
+	margin-top: 3.5%;
+	background-color: #f3f4f6;
+	position: relative;
+}
+.inputBox #box > p{
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	padding: 2%;
+	text-align: left;
+}
+.inputBox #box #phoneNum{
+	width: 95%;
+	height: 40%;
+	top: 40%;
+	left: 2%;
+	position: absolute;
+	background-color: #f3f4f6;
+	border: none;
+	font-size: 16px;
+}
+#sendNum{
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border: none;
+    background: #b8becc;
+    color: #fff;
+    margin-top: 3%;
+    margin-left: 45%;
+}
+#sendNum:hover {
+	background: #a1abc2;
+}
+li{
+	list-style: none;
+}
+#sideL{
+	border-right: 1px solid #e5e5e5;
+	height: 100vh;
+	width: 15vw;
+	left: 0;
+	top: 0;
+	position: relative;
+	z-index: 5;
+	background-color: white;
+}
+#sideL #menu ul{
+	position: absolute;
+	top: 22%;
+	padding-left:0px;
+	width: 100%;
+	
+}
+#sideL #menu ul li{
+	width: 100%;
+	text-align: left;
+	padding: 5% 0%;
+	font-size: 16px;
+	margin-left: 10%;
+}
+#sideL #menu ul li:hover {
+	color: #68B3CE;
+}
+#sideL #goHome{
+	text-align: center;
+	position: absolute;
+	top: 8%;
+	left: 30%;
+}
+#sideL #goHome img{
+	width: 70px;
+	height: 60px;
+}
+#sideL #goHome > p{
+	font-size: 13px;
+	font-weight: bold;
+}
+#sideL #menu #wheelchair{
+	border-top: 1px solid #e5e5e5;
+	position: absolute;
+	margin-top: 0;
+	width: 100%;
+	top: 75%;
+}
+#sideL #menu #wheelchair > p{
+	margin-left: 10%;
+}
+#wheelchair #smallText{
+	color: #999;
+	font-size: 12px;
+}
+#wheelchair #bigText{
+	position: absolute;
+	top: 55%;
+}
